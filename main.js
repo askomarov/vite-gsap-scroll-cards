@@ -80,13 +80,6 @@ document.addEventListener(
       )
     }
     animateSection()
-    window.addEventListener("load", () => {
-      //
-    });
   },
   true
 );
-
-window.addEventListener("resize", () => {
-  ScrollTrigger.refresh();
-})
