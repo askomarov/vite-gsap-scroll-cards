@@ -4,16 +4,13 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
-console.log("hello js asd");
-let ctx = null
-let timeLine = null;
-
 document.addEventListener(
   "DOMContentLoaded",
   () => {
 
     const animateSection = () => {
       let mm = gsap.matchMedia();
+      let ctx = null
 
       mm.add(
         {
