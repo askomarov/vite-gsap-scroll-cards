@@ -133,8 +133,6 @@ body {
 }
 
 .anim-container__list {
-  position: relative;
-  z-index: 1;
   grid-row: 2/3;
   counter-reset: card;
 }
@@ -233,6 +231,11 @@ body {
   transition:
     background 0.3s,
     color 0.3s;
+
+    &:hover {
+      background: #ffba03;
+      color: #000;
+    }
 }
 
 .anim-container__pagination-item.active {
